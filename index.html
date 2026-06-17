@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Hajuary | Laboratory Technician</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+nav{
+    background:#0d47a1;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
+    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    color:white;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.hero img{
+    width:280px;
+    height:280px;
+    border-radius:50%;
+    border:6px solid white;
+    object-fit:cover;
+}
+
+.hero-text h1{
+    font-size:48px;
+}
+
+.hero-text h3{
+    margin:15px 0;
+    font-weight:normal;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#1565c0;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    color:#0d47a1;
+    margin-bottom:40px;
+    font-size:36px;
+}
+
+.about p{
+    text-align:center;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#1565c0;
+    margin-bottom:15px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .hero-text h1{
+        font-size:36px;
+    }
+
+    .hero-content{
+        text-align:center;
+        justify-content:center;
+    }
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        margin-top:10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">David Hajuary</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <img src="images/IMG_20260618_013451.jpg" alt="David Hajuary">
+
+        <div class="hero-text">
+            <h1>David Hajuary</h1>
+            <h3>Laboratory Microbiology Technician</h3>
+            <p>Tezpur, Assam</p>
+
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p> I am David Hazuary, a dedicated Lab Technician Dpt of microbiology at Tezpur. I am committed to accurate diagnostics, strict QC protocols,
+        maintenance and patient safety. My work focuses on precision in sample processing, reliability in reporting, and maintaining professional excellence in medical laboratory services.
+    </p>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Clinical Diagnostics & Microbiology</h3>
+            <p> <br>* Processing of clinical samples including tracheal aspirate, sputum, and blood for bacterial, tissue and culture and sensitivity testing.</br>
+                <br>* Performed Gram staining and AFB,Mannual work accurate result reporting.</br>
+                <br>* Maintained aseptic technique and zero contamination during sample inoculation and incubation.</br> </p>
+        </div>
+        <div class="card">
+            <h3>Microbiology & Automation</h3>
+            <p> <br>* Operation of Bact/ALERT 3D automated blood culture system for 24x7 microbial detection.</br>
+                <br>* VITEK 2 system for bacterial identification & antibiotic susceptibility testing of GPC,YEST and also GNB like _Serratia marcescens_.</br>
+                <br>* And also Mannual microbiology work like antibiotics, cultures and stain's</br>   
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Biosafety & Quality Control</h3>
+            <p> <br>* Operation of Biosafety Cabinet for safe handling of respiratory samples and potential pathogens.</br>
+                <br>* Conducted daily QC checks of media, reagents, and equipment as per NABL guidelines.</br>
+                <br>* Managed autoclave sterilization and biomedical waste disposal following hospital protocols.</br> </p>
+        </div>
+
+        <div class="card">
+            <h3>Lab Safety & Compliance</h3>
+            <p> <br>* Ensured 100% compliance with patient safety, PPE usage, and biosafety SOPs.</br>
+                <br>* Maintained turnaround time for diagnostic reports and documentation</br></p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Laboratory Work</h3>
+            <p><br>Manual sample processing, Slide preparation, Inoculation techniques, MTB PCR (CBNAAT), BACT/ALERT</br></p>
+        </div>
+        <div class="card">
+            <h3>Microbiology Work</h3>
+            <p><br>Manually work like Gram staining, AFB, Zimsa, etc. Bacterial culture, Colony identification, Antibiotic sensitivity testing,  </br></p>
+        </div>
+
+        <div class="card">
+            <h3>Equipment & Safety</h3>
+            <p><br>Biosafety Cabinet BSC, Autoclave operation, Centrifuge, NABL QC checks and maintenance</br></p>
+        </div>
+
+        <div class="card">
+            <h3>Work Ethic</h3>
+            <p><br>24x7 duty availability, Shift handling, Emergency sample processing, High workload management</br></p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p><strong>Name:</strong> David Hajuary</p>
+    <p><strong>Profession:</strong> Laboratory Microbiology Technician </p>
+    <p><strong>Location:</strong> Tezpur, Assam india 784001</p>
+    <p><strong>Email:</strong> davidscott9957@gmail.com</p>
+</section>
+
+<footer>
+    © 2026 David Hajuary | Professional Profile Website
+</footer>
+
+</body>
+</html>
